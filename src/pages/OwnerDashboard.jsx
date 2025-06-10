@@ -18,6 +18,8 @@ export default function OwnerDashboard() {
     } catch (err) {
       setStatus("Error: " + err.message);
     }
+
+    // berhasil?
   };
 
   return (
